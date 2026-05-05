@@ -1,0 +1,74 @@
+h1 {
+    text-align: center;
+}
+
+h1::before {content:"[ ";}
+h1::after {content:" ]";}
+
+.unselectable {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Safari */
+  -khtml-user-select: none;    /* Konqueror HTML */
+  -moz-user-select: none;      /* Old versions of Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Standard syntax (modern browsers) */
+}
+
+
+.img-right {
+    right:15%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    align-self: right;
+    width: 35%;
+    border-radius: 3px;
+    border: solid white
+}
+
+.text-left {
+    left:10%;
+    position: absolute;
+    top: 49%;
+    transform: translate(0, -50%);
+    align-self: left;
+    width: 35%;
+    height: 25%;
+    display: grid;
+    place-items: center;
+    background-color: lightgrey;
+    padding:1%;
+    border-radius: 5px;
+    border: 10px double darkgrey;
+    color: black;
+}
+
+.text-right {
+    right:10%;
+    position: absolute;
+    top: 49%;
+    transform: translate(0, -50%);
+    align-self: right;
+    width: 35%;
+    height: 25%;
+    display: grid;
+    place-items: center;
+    background-color: lightgrey;
+    padding:1%;
+    border-radius: 5px;
+    border: 10px double darkgrey;
+    color: black;
+}
+
+a {
+  display: inline;
+  margin:0px;
+  padding:0px;
+}
+
+.shield {
+  width: 20%;
+  border: solid rgba(0, 0, 0, 0) 10px;
+  border-radius: 100%;
+  background-color: white;
+}

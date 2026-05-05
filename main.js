@@ -278,7 +278,12 @@ function buyx2() {
         if (clicks >= x2price) {
             timesusedx2 += 1
             clicks -= x2price
-            x2timeleft = 30
+            if (x2timeleft > 0) {
+                x2timeleft += 30
+            }
+            else {
+                x2timeleft = 30
+            }
             updateClicks()
             document.getElementById("logo").classList.add("green")
         }
@@ -347,7 +352,12 @@ function buyauto() {
         if (clicks >= autoprice) {
             timesusedauto += 1
             clicks -= autoprice
-            autotimeleft = 30
+            if (autotimeleft > 0) {
+                autotimeleft += 30
+            }
+            else {
+                autotimeleft = 30
+            }
             updateClicks()
             document.getElementById("logo").classList.add("red")
         }

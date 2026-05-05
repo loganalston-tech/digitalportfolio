@@ -35,7 +35,7 @@ function delete_cookie(name) {
 
 const favicon = `images/logo.png`
 const appHeader = `Logan's Digital Portfolio`;
-const nav = `<a href="/" class="nav index fa-solid fa-house"></a>
+const nav = `<a href="/digitalportfolio/" class="nav index fa-solid fa-house"></a>
 <a href="info.html" class="nav info fa-solid fa-folder"></a>
 <a href="contact.html" class="nav contact fa-solid fa-phone"></a>
 <a href="about.html" class="nav about fa-solid fa-user"></a>`;

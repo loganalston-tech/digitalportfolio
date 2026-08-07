@@ -19,6 +19,19 @@ h1 {
   /* text-shadow: 2px 2px 5px rgba(0,0,0,.3); */
 }
 
+h3 {font-size: 1.7rem;
+  margin: 0 0 1rem;
+  letter-spacing: 0.03em;
+}
+
+
+.BulletList {
+  list-style-type: disc;
+  list-style-position: outside;
+  display: inline-block;
+  text-align: center;
+  margin: 0.5rem auto;
+}
 
 .myUL {
   display: inline-block;
@@ -66,7 +79,16 @@ h1 {
   gap: 1rem;
   white-space: nowrap;
   /* animation: scroll-horiz 12s linear infinite; */
-  padding-left: 0;
+  padding-left: 0%;
+  margin: 0;
+}
+
+.center-ticker {
+  display: flex;
+  gap: 1rem;
+  white-space: nowrap;
+  /* animation: scroll-horiz 12s linear infinite; */
+  padding-left: 25%;
   margin: 0;
 }
 

@@ -34,11 +34,12 @@ function delete_cookie(name) {
 // Vars
 
 const favicon = `images/logo.png`
-const appHeader = `Logan's Digital Portfolio`;
+const appHeader = `Logan A.'s Digital Portfolio`;
 const nav = `<a href="/digitalportfolio/" class="nav index fa-solid fa-house"></a>
 <a href="info.html" class="nav info fa-solid fa-folder"></a>
 <a href="contact.html" class="nav contact fa-solid fa-phone"></a>
-<a href="about.html" class="nav about fa-solid fa-user"></a>`;
+<a href="about.html" class="nav about fa-solid fa-user"></a>
+<a href="credits.html" class="nav credits fa-solid fa-book"></a>`;
 const cookie_bottom_bar = `<div class="bottom-bar">
 <h1 id="cookie-text">By clicking accept, you agree to all cookies.</h1>
 <button class="cookies accept" onclick="cookie_select(0)">Accept</button>
@@ -130,12 +131,6 @@ const secretCode = 'l'; // Change to your desired string
 document.addEventListener('keydown', function(event) {
     const navItems = Array.from(document.querySelectorAll('.nav'));
     const currentIndex = navItems.findIndex(item => item.classList.contains('active'));
-    
-    if (event.key === 'ArrowLeft' && currentIndex > 0) {
-        navItems[currentIndex - 1].click();
-    } else if (event.key === 'ArrowRight' && currentIndex < navItems.length - 1) {
-        navItems[currentIndex + 1].click();
-    }
     
     // Track character input
     if (event.key.toLowerCase() == secretCode) {

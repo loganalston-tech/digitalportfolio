@@ -62,13 +62,14 @@ h1::after {content:" ]";}
 
 a {
   display: inline;
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
+  vertical-align: baseline;
+  text-align: left;
 }
 
-.shield {
-  width: 20%;
+.game_img {
+  width: 25%;
   border: solid rgba(0, 0, 0, 0) 10px;
-  border-radius: 100%;
   background-color: white;
 }

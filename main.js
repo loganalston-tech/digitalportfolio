@@ -37,6 +37,7 @@ const favicon = `images/logo.png`
 const appHeader = `Logan A.'s Digital Portfolio`;
 const nav = `<a href="/digitalportfolio/" class="nav index fa-solid fa-house"></a>
 <a href="info.html" class="nav info fa-solid fa-folder"></a>
+<a href="art.html" class="nav art fa-solid fa-paint-brush"></a>
 <a href="contact.html" class="nav contact fa-solid fa-phone"></a>
 <a href="about.html" class="nav about fa-solid fa-user"></a>
 <a href="credits.html" class="nav credits fa-solid fa-book"></a>`;

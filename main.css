@@ -417,3 +417,18 @@ body {
 .gold {
     opacity: 0.5;
 }
+
+.arrayImage {
+  width:25%;
+  border-radius: 2px;
+  margin:5px;
+  background-color: white;
+  outline: 2px solid #3f4162;
+}
+
+.arrayImageLarge {
+  width:80%;
+  border-radius: 5px;
+  margin:5px;
+  outline: 2px solid #3f4162;
+}
